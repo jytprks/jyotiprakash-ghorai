@@ -16,6 +16,10 @@ p{
   font-family: 'Quicksand', sans-serif;
   color: #808dAD;
 }
+a{
+  font-family: 'Quicksand', sans-serif;
+  color: #808dAD;
+}
 h1,
 h2,
 h3,
@@ -28,7 +32,6 @@ h6{
 }
 hr{
   background-color: var(--grey);
- 
 }
 
 .container{
@@ -36,3 +39,4 @@ hr{
   margin-left: 100px;
   margin-right: 100px;
 }
+
