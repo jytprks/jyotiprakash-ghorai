@@ -1,0 +1,30 @@
+.wrapper{
+    display: flex;
+    height: 500px;
+}
+.heroName{
+    margin: auto 0;
+    width: 50%;
+    align-items:center;
+    justify-content:center;
+}
+
+.helloHR{
+    width: 40px;
+    border-top: 4px solid var(--red);
+    border-radius: 3px;
+}
+
+.helloWrap{
+    display: flex;
+    align-content: center;
+}
+.hello {
+    margin-left: 6px;
+    display: flex;
+    align-items:center;
+    justify-content:center; 
+    color: var(--red);
+    font-weight: 500;
+    font-size: large;
+}

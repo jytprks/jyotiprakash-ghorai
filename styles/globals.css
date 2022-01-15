@@ -1,16 +1,38 @@
+:root {
+  --blue: #0E1630;
+  --grey: #808DAD;
+  --white: #ffffff;
+  --red: #EB4A4A;
+}
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  background-color: var(--blue);
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+p{
+  font-family: 'Quicksand', sans-serif;
+  color: #808dAD;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: #FFF;
+}
+hr{
+  background-color: var(--grey);
+ 
 }
 
-* {
-  box-sizing: border-box;
+.container{
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
 }

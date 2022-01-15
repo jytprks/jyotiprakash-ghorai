@@ -1,0 +1,51 @@
+.number{
+    color: var(--red);
+    font-weight: 500 ;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.name{
+    margin: auto;
+    display: flex;
+  justify-content: center;
+}
+.name::first-letter{
+    color: var(--red);
+}
+.selected{
+    color: var(--grey);
+    font-weight: 500 ;
+    font-size: medium;
+    margin: 0px 10px;
+    color: var(--red);
+}
+
+.linkText{
+    color: var(--grey);
+    font-weight: 500 ;
+    font-size: medium;
+    margin: 0px 10px;
+}
+.phoneImg{
+    margin: auto;
+    display: flex;
+  justify-content: center;
+  color: var(--grey);
+}
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+}
+
+.link,.phone {
+    margin: auto;
+    display: flex;
+  justify-content: center;
+}
+/* .phone{
+    margin: auto;
+    display: flex;
+  justify-content: center;
+} */
